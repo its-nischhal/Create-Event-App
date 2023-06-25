@@ -7,8 +7,11 @@ environment:
   sdk: '>=3.0.5 <4.0.0'
 
 dependencies:
+  bloc: ^8.1.2
+  dropdown_search: ^5.0.6
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.3
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +20,18 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+    - family: OpenSans-SemiBold
+      fonts:
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+    - family: OpenSans-Bold
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
